@@ -1,0 +1,67 @@
+body{
+background-color:#d0e4fe;
+}
+h1 {
+	font-family: "Verdana";
+	color: rgb(0, 255, 55);
+	text-align: center;
+}
+h3{
+	font-family: "Times New Roman";
+		color: green;
+	text-align: left;
+	font-style: italic;
+}
+
+p{
+	font-family: "arial black";
+	font-size: 20px;
+}
+.content{
+	max-width: 720px;
+	text-align: center;
+}
+ /* unvisited link */
+a:link {
+	color: grey;
+	font-family: "Courier New";
+}
+
+/* visited link */
+a:visited {
+	color: aqua;
+	font-family: "Georgia";
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color:  blue;
+} 
+.icon-bar {
+	width: 100%; /* Full-width */
+	background-color: #555; /* Dark-grey background */
+	overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+	float: left; /* Float links side by side */
+	text-align: center; /* Center-align text */
+	width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+	padding: 12px 0; /* Some top and bottom padding */
+	transition: all 0.3s ease; /* Add transition for hover effects */
+	color: white; /* White text color */
+	font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+	background-color: rgb(116, 81, 119); /* Add a hover color */
+  }
+  
+  .active {
+	background-color: rgb(111, 76, 175); /* Add an active/current color */
+  }
