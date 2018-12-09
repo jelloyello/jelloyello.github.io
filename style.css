@@ -3,33 +3,50 @@ background-color:#d0e4fe;
 }
 h1 {
 	font-family: "Verdana";
-	color: rgb(0, 255, 55);
+	color: rgb(245, 175, 26);
 	text-align: center;
 }
 h3{
 	font-family: "Times New Roman";
 		color: green;
 	text-align: left;
-	font-style: italic;
+	margin-left: 20%;
+	font-style: bold;
 }
-
+img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 p{
-	font-family: "arial black";
+	font-family: "arial";
 	font-size: 20px;
 }
 .content{
-	max-width: 720px;
+
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+.footer{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.middle{
 	text-align: center;
 }
  /* unvisited link */
 a:link {
-	color: grey;
+	color: rgb(238, 107, 14);
 	font-family: "Courier New";
 }
 
 /* visited link */
 a:visited {
-	color: aqua;
+	color: rgb(89, 0, 255);
 	font-family: "Georgia";
 }
 
@@ -64,4 +81,59 @@ a:active {
   
   .active {
 	background-color: rgb(111, 76, 175); /* Add an active/current color */
+	}
+	
+	/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 22%;
+  min-height: 200px;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  min-height: 200px;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
   }
+}
