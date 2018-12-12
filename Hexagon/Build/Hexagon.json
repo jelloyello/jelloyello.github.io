@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Brackey hex crush",
+"dataUrl": "Hexagon.data.unityweb",
+"asmCodeUrl": "Hexagon.asm.code.unityweb",
+"asmMemoryUrl": "Hexagon.asm.memory.unityweb",
+"asmFrameworkUrl": "Hexagon.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
