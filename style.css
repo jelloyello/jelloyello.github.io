@@ -60,7 +60,8 @@ a:active {
     color:  blue;
 } 
 .icon-bar {
-	width: 100%; /* Full-width */
+  width: 100%; /* Full-width */
+ /* height: 100px; /* height */
 	background-color: #555; /* Dark-grey background */
 	overflow: auto; /* Overflow due to float */
   }
@@ -72,7 +73,7 @@ a:active {
 	padding: 12px 0; /* Some top and bottom padding */
 	transition: all 0.3s ease; /* Add transition for hover effects */
 	color: white; /* White text color */
-	font-size: 36px; /* Increased font size */
+	font-size: 60px; /* Increased font/icon size */
   }
   
   .icon-bar a:hover {
@@ -136,6 +137,26 @@ footer {
     width: 100%;
     height: auto;
   }
+}
+
+.fixed-bg {
+  /* The background image */
+  background-image: url("images/the-matrix-code.jpg");
+
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
 }
 /*
 iframe {
